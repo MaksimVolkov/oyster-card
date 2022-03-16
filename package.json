@@ -1,0 +1,19 @@
+{
+  "name": "oyster-card",
+  "version": "1.0.0",
+  "description": "init README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksimVolkov/oyster-card.git"
+  },
+  "author": "Maksim Volkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksimVolkov/oyster-card/issues"
+  },
+  "homepage": "https://github.com/MaksimVolkov/oyster-card#readme"
+}
