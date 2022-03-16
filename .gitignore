@@ -1,3 +1,12 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
 ### JetBrains template
 # User-specific stuff
 .idea/**/workspace.xml
@@ -72,3 +81,4 @@ fabric.properties
 .idea/modules.xml
 .idea/oyster-card.iml
 .idea/vcs.xml
+node_modules/

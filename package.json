@@ -1,10 +1,12 @@
 {
   "name": "oyster-card",
   "version": "1.0.0",
-  "description": "init README.md",
-  "main": "index.js",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/MaksimVolkov/oyster-card/issues"
   },
-  "homepage": "https://github.com/MaksimVolkov/oyster-card#readme"
+  "homepage": "https://github.com/MaksimVolkov/oyster-card#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/preset-env": "^7.16.11",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@jest/globals": "latest"
+  }
 }
